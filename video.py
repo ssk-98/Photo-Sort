@@ -14,7 +14,7 @@ def main():
 
     location = os.path.dirname(os.path.realpath(__file__))
     
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
 
     # load the known faces and embeddings
